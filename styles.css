@@ -287,8 +287,6 @@ footer{
     vertical-align:top;
     
     padding: 10px 10px 5px 10px;
-
-    margin-right: 815px;
     
     width: 230px;
     height: 250px;
@@ -296,7 +294,17 @@ footer{
     border: 1px solid rgb(63, 63, 63);
     border-radius: 20px;
 }
+.footer-link-block-container{
+    display:inline-block;
+    
+    float:right;
 
+    width:345px;
+    height:250px;
+
+    border:1px solid red;
+
+}
 .footer-link-block-2{
     display: inline-block;
 
