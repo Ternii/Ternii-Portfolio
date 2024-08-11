@@ -181,5 +181,26 @@
             </div>
         </div>
     </footer>
+    <script>
+        
+        const headerContainer = document.querySelector('header');
+        const footerContainer = document.querySelector('footer');
+      
+        
+        fetch('./header.html')
+          .then(response => response.text())
+          .then(headerContent => {
+            
+            headerContainer.innerHTML = headerContent; 
+          });
+
+          fetch('./footer.html')
+          .then(response => response.text())
+          .then(footerContent => {
+            
+            footerContainer.innerHTML = footerContent; 
+          });
+
+    </script>
 </body>
 </html>
