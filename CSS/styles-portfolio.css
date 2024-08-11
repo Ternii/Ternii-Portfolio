@@ -47,12 +47,16 @@ h1{
 
 /*CONTENT 2*/
 .content-2{
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0px 20px 0px;
     height: 1440px;
 
     border-radius: 20px;
    
     background-color: #ededed;
+    
+}
+.content-2-container{
+    
     
 }
 .content-2-portfolio-li{
