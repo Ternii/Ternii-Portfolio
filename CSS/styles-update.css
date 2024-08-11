@@ -22,7 +22,7 @@ body{
 
     text-align: center;
 
-    background-image: url(..//RESOURCES/Examples/update-content-1-BG.png);
+    background-image: url(../RESOURCES/update-content-1-BG.png);
     background-size: cover;
     background-position: center;
 }
@@ -51,7 +51,7 @@ h1{
     height: 800px;
 
     border-radius: 20px;
-    background-image: url(..//RESOURCES/Examples/section-2-bg.png);
+    background-image: url(../RESOURCES/section-2-bg.png);
     background-size: cover;
     
 }
