@@ -48,7 +48,7 @@ h1{
 /*CONTENT 2*/
 .content-2{
     padding: 20px 0px 20px 0px;
-    height: 1440px;
+    height: 100%;
 
     border-radius: 20px;
    
@@ -56,11 +56,13 @@ h1{
     
 }
 .content-2-portfolio-container{
+    margin:0 auto;
     
-    
-    
+    width:90%;
+    height:100%;   
 }
 .content-2-portfolio-ul{
+
     
 }
 .content-2-portfolio-li{
@@ -68,9 +70,7 @@ h1{
     display: inline-block;
     vertical-align: top;
 
-    margin: 20px 20px 20px 0px;
-
-    width: 437px;
+    width:33.3%;
     height: 670px;
 
     border-radius: 20px;
