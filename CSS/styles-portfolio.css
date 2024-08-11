@@ -22,7 +22,7 @@ body{
 
     text-align: center;
 
-    background-image: url(./RESOURCES/project-content-1-BG.png);
+    background-image: url(../RESOURCES/project-content-1-BG.png);
     background-size: cover;
     background-position: center;
 }
