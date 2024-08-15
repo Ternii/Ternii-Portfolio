@@ -75,18 +75,24 @@ h1{
     line-height:40px;
 
     border:none;
+
+    border-radius:8px;
 }
 .content-2-portfolio-filter-li-btn-search:hover{
     color:white;
     background-color:brown;
 }
-.content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{    
+.content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{   
+    margin:0px 6px 0px 0px;
+    
     height:40px;
     line-height:40px;
 
     background-color:brown;
     color:white;
     border:none;
+
+    border-radius:8px;
 }
 
 
