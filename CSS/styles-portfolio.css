@@ -68,6 +68,14 @@ h1{
 
     height:40px;
 }
+.content-2-portfolio-filter-li-search{
+    margin:0px 6px 0px 0px;
+    height:40px;
+
+    border:none;
+
+    font-family:"Raleway";
+}
 .content-2-portfolio-filter-li-btn-search{
     margin:0px 10px 0px 0px;
     color:black;
