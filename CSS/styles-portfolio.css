@@ -55,7 +55,7 @@ h1{
     background-color: #ededed;
     
 }
-.content-2-portfolio-filter{
+.content-2-portfolio-filter-search, .content-2-portfolio-filter-active, .content-2-portfolio-filter-done, .content-2-portfolio-filter-dev,{
     padding: 0px 30px 0px 30px;
     
     width:100%;
