@@ -68,6 +68,20 @@ h1{
 
     height:60px;
 }
+.content-2-portfolio-filter-li-btn-search{
+    color:white;
+
+    height:60px;
+    line-height:60px;
+}
+.content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{
+    color:white;
+
+    height:60px;
+    line-heght:60px;
+
+    background-color:brown;
+}
 .content-2-portfolio-container{
     margin:0 auto;
 
