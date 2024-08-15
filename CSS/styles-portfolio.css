@@ -69,19 +69,19 @@ h1{
     height:40px;
 }
 .content-2-portfolio-filter-li-btn-search{
-    color:white;
+    color:black;
 
     height:40px;
     line-height:40px;
 }
 .content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{
-    color:white;
-
+    vertical-align:top;
+    
     height:40px;
     line-heght:40px;
 
     background-color:brown;
-
+    color:white;
     border:none;
     
 }
