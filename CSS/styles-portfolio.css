@@ -70,21 +70,22 @@ h1{
 }
 .content-2-portfolio-filter-search{
     padding:0px 0px 0px 5px;
-
     
     width:130px;
     height:30px;
     
     line-height:30px;
 
-    border:none;
-    border-radius:8px;
+    border:1px solid grey;
+    border-radius:10px;
 
     font-family:"Raleway";
     font-weight:300;
 
-    transition-timing-function:earse-in-out;
-    transition-duration:0.4s;
+    transition-timing-function: ease-in-out;
+    transition-duration:0.3s;
+
+    background-color:#1f1d1d;
     
 }
 .content-2-portfolio-filter-search:hover{
