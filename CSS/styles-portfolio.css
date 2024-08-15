@@ -73,17 +73,20 @@ h1{
 
     height:40px;
     line-height:40px;
+
+    border:none;
 }
-.content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{
-    vertical-align:top;
-    
+.content-2-portfolio-filter-li-btn-search:hover{
+    color:white;
+    background-color:brown;
+}
+.content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{    
     height:40px;
     line-height:40px;
 
     background-color:brown;
     color:white;
     border:none;
-    
 }
 
 
