@@ -101,7 +101,7 @@ h1{
     background-color:brown;
 }
 .content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{   
-    margin:0px 6px 0px 0px;
+    display:inline-block;
     
     height:30px;
     line-height:30px;
@@ -109,22 +109,32 @@ h1{
     color:white;
     border:none;
 
-    border-radius:8px;
+    border-radius:10px;
 
     font-family:"Raleway";
     font-weight:400;
 }
+
 .content-2-portfolio-filter-li-btn-active{
     background-color:brown;
+}
+.content-2-portfolio-filter-li-btn-active:hover{
+    background-color:red;
 }
 .content-2-portfolio-filter-li-btn-done{
     background-color: rgb(15, 171, 1);
 }
+.content-2-portfolio-filter-li-btn-done:hover{
+    background-color: #00bf0e;    
+}
 
 .content-2-portfolio-filter-li-btn-dev{
     background-color: #ac00fc;
-
 }
+.content-2-portfolio-filter-li-btn-dev:hover{
+    background-color: #c74fff;
+}
+
 
 .content-2-portfolio-container{
     margin:0 auto;
