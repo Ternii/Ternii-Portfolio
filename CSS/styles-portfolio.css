@@ -105,8 +105,6 @@ h1{
     
     height:30px;
     line-height:30px;
-
-    background-color:brown;
     
     color:white;
     border:none;
@@ -116,7 +114,17 @@ h1{
     font-family:"Raleway";
     font-weight:400;
 }
+.content-2-portfolio-filter-li-btn-active{
+    background-color:brown;
+}
+.content-2-portfolio-filter-li-btn-done{
+    background-color:rgb(15, 171, 1);
+}
 
+.content-2-portfolio-filter-li-btn-dev{
+    background-color: #ac00fc;
+
+}
 
 .content-2-portfolio-container{
     margin:0 auto;
