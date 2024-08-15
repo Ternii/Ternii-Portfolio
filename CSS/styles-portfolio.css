@@ -62,6 +62,7 @@ h1{
     height:50px;
     
     background-color:#1f1d1d;
+    box-shadow: 0px 0px 10px rgb(116, 116, 116);
 }
 .content-2-portfolio-filter-li{
     display:inline-block;
@@ -111,40 +112,28 @@ h1{
     color:white;
     background-color:brown;
 }
-.content-2-portfolio-filter-li-btn-active, .content-2-portfolio-filter-li-btn-done, .content-2-portfolio-filter-li-btn-dev{   
+.content-2-portfolio-filter-li-btn{   
     display:inline-block;
+
+    padding: 0px 10px 0px 10px ;
     
     height:30px;
     line-height:30px;
     
-    color:white;
     border:none;
 
     border-radius:10px;
 
     font-family:"Raleway";
-    font-weight:400;
+    font-weight:500;
 }
 
-.content-2-portfolio-filter-li-btn-active{
+.content-2-portfolio-filter-li-btn:hover{
     background-color:brown;
-}
-.content-2-portfolio-filter-li-btn-active:hover{
-    background-color:red;
-}
-.content-2-portfolio-filter-li-btn-done{
-    background-color: rgb(15, 171, 1);
-}
-.content-2-portfolio-filter-li-btn-done:hover{
-    background-color: #00bf0e;    
+    color: white;
+    box-shadow: 0px 0px 10px red;
 }
 
-.content-2-portfolio-filter-li-btn-dev{
-    background-color: #ac00fc;
-}
-.content-2-portfolio-filter-li-btn-dev:hover{
-    background-color: #c74fff;
-}
 
 
 .content-2-portfolio-container{
@@ -158,33 +147,30 @@ h1{
     width:100%;
 }
 .content-2-portfolio-li{
-
     display: inline-block;
     vertical-align: top;
 
     width:30%;
     margin:1.5%;
-    
+
     border-radius: 20px;
 
     box-shadow: 0px 0px 10px rgb(167, 167, 167);
 
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-
 }
 .content-2-portfolio-li:hover{
-    box-shadow: 0px 0px 10px rgb(90, 90, 90);
+
+    box-shadow: 0px 0px 10px rgb(91, 91, 91);
 
 }
-
 .content-2-portfolio-li-href{
     color: black;
     text-decoration:none;
 }
 .content-2-portfolio-li-href:hover{
     color: black;
-
 }
 
 .content-2-portfolio-li-image{
@@ -197,18 +183,33 @@ h1{
     background-size: contain;
 
 }
-
 .content-2-li-portfolio-p{
     display: inline-block;
 
+    margin-bottom: 20px;
+
+    padding:5px 10px 5px 10px;
+
+    color: white;
+
+    background-color: brown;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 0px 0px 9px rgb(116, 116, 116);
+
+
+    
+    font-size: 20px;
+}
+.content-2-li-portfolio-p-progress{
+
     margin-right: 19%;
-
-    width: 60%;
-    height: 30px;
-
+    margin-bottom: 10px;
     padding-left: 10px;
 
-    font-size: 20px;
+
+    font-size: 14px;
 }
 .content-2-li-portfolio-p-status-active, .content-2-li-portfolio-p-status-done{
     display: inline-block;
@@ -230,16 +231,57 @@ h1{
 .content-2-li-portfolio-p-status-done{
     
     background-color: rgb(15, 171, 1);
+    
+}
+.content-2-li-portfolio-hashbar{
+    margin-bottom: 20px;
+    
+    display: block;
+
+    width: 100%;
+    height: 5px;
+
+    background-color: rgb(216, 216, 216);
+}
+.content-2-li-portfolio-hashbar-load{
+    display: block;
+
+    margin-bottom: 20px;
+
+    width: 40%;
+    height: 5px;
+    
+    background-color: rgb(165, 35, 35);
+
+    box-shadow: 0px 0px 5px red;
+}
+.content-2-li-portfolio-hash-ul{
+    margin: 10px 0px 0px 0px;
+}
+.content-2-li-portfolio-hash-li{
+    display: inline-block;
+
+    margin:0px 0px 10px 10px;
+    padding: 0px 5px 0px 5px;
+
+    height: 30px;
+    line-height: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px rgb(153, 153, 153);
+
+
+
 
 }
-
 /*CONTENT 3*/
 .content-3{
     margin: 0 auto;
 
     padding: 0px 20px 20px 20px;
-
-    border-radius: 20px;
 
     background-color: rgb(0, 0, 0);
 }
@@ -300,9 +342,6 @@ h3{
 }
 
 
-.content-3-update-list-ul{
-    /* width: 100%; */
-}
 .content-3-update-list-li{
     display: inline-block;
     margin: 0px 0px 5px 0px;
