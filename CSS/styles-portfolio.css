@@ -69,16 +69,17 @@ h1{
     height:30px;
 }
 .content-2-portfolio-filter-search{
-    margin:0px 6px 0px 0px;
-
-    width:100px;
+    
+    width:130px;
     height:30px;
+    
     line-height:30px;
 
     border:none;
     border-radius:8px;
 
     font-family:"Raleway";
+    font-weight:300;
     
 }
 .content-2-portfolio-filter-li-btn-search{
@@ -106,13 +107,14 @@ h1{
     line-height:30px;
 
     background-color:brown;
+    
     color:white;
     border:none;
 
     border-radius:8px;
 
     font-family:"Raleway";
-    font-weight:600;
+    font-weight:400;
 }
 
 
