@@ -63,13 +63,10 @@ h1{
     
     background-color:#1f1d1d;
 }
-.content-2-portfolio-filter-li-search, .content-2-portfolio-filter-li-active, .content-2-portfolio-filter-li-done, .content-2-portfolio-filter-li-dev{
+.content-2-portfolio-filter-li{
     display:inline-block;
 
     height:60px;
-
-    border:1px solid;
-    
 }
 .content-2-portfolio-container{
     margin:0 auto;
