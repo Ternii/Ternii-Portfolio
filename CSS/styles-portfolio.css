@@ -63,6 +63,14 @@ h1{
     
     background-color:#1f1d1d;
 }
+.content-2-portfolio-filter-li{
+    display:inline-block;
+
+    height:60px;
+
+    border:1px solid;
+    
+}
 .content-2-portfolio-container{
     margin:0 auto;
 
