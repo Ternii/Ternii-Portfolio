@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/styles-update.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./RESOURCES/Icon.png" type="image/x-icon">
+
+    <title>Ternii [Update]</title>
+</head>
+<body>
+    <header>
+        <!--Подгружаю header-->
+    </header>
+    <main>
+        <section class="content-1">
+            <h1>TÄSK</h1>
+            <p class="content-1-p">BACKLOG</p>
+        </section>
+        <section class="content-2">
+
+        </section>
+
+    </main>
+    <footer>
+        <!--Подгружаю футер-->
+    </footer>
+
+    <script>  
+        const headerContainer = document.querySelector('header');
+        const footerContainer = document.querySelector('footer');
+        
+        fetch('./header.html')
+          .then(response => response.text())
+          .then(headerContent => {
+            
+            headerContainer.innerHTML = headerContent; 
+          });
+
+          fetch('./footer.html')
+          .then(response => response.text())
+          .then(footerContent => {
+            
+            footerContainer.innerHTML = footerContent; 
+          });
+    </script>
+
+</body>
