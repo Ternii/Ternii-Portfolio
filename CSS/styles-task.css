@@ -1,0 +1,55 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-width: 1200px;
+
+    font-family: 'Raleway';
+
+    background-color: black;
+    
+}
+
+/*CONTENT 1*/
+.content-1{
+    margin: 0 auto;
+    height: 400px;
+
+    padding-top: 120px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    background-image: url(../RESOURCES/update-content-1-BG.png);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-weight: 400;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 10px;
+}
+.content-1-p{
+    font-weight: 300;
+    color:rgb(117, 117, 117);
+
+    margin-bottom: 20px;
+}
+.content-1-img{
+    width: 30px;
+    height: 50px;
+
+    opacity: 70%;
+}
+
+/*CONTENT 2*/
+.content-2{
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(../RESOURCES/section-2-bg.png);
+    background-size: cover;
+}
