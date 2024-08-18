@@ -185,3 +185,95 @@ h1{
 
     box-shadow: 0px 0px 4px grey;
 }
+.content-2-work-desk{
+    padding: 15px;
+}
+.contnet-2-work-desk-article{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+
+    margin-bottom: 15px;
+    width: 38%;
+
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 500;
+
+    border-radius: 10px;
+    
+    color: white;
+
+    background-color: rgba(17, 200, 17, 0.624);
+
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.54);
+}
+.contnet-2-work-desk-image{
+    float: right;
+    vertical-align: top;
+
+    width: 60%;
+    height: 60%;
+
+    border-radius: 10px;
+
+    background-color:rgba(255, 255, 255, 0);
+
+    object-fit:cover;
+
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.404);
+
+}
+.content-2-work-desk-task{
+    display: block;
+
+    margin-bottom: 15px;
+    padding: 10px;
+
+    text-align: left;
+
+    width:38%;
+    height: 380px;
+
+    font-size:20px;
+    font-weight: 300;
+
+    word-spacing: 0.5em;
+
+    border-radius: 15px;
+    
+    background-color:rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.404);
+}
+.content-2-work-desk-task-author{
+    display: inline-block;
+
+    padding: 5px 10px 5px 10px;
+
+    text-align: left;
+
+    border-radius: 15px;
+
+    background-color:rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.404);
+
+    cursor: pointer;
+}
+.content-2-work-desk-task-perfomer{
+    float: right;
+
+    padding: 5px 10px 5px 10px;
+
+    text-align: left;
+
+    border-radius: 10px;
+
+    background-color:rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.404);
+
+    cursor: pointer;
+}
