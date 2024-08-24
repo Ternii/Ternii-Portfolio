@@ -25,9 +25,7 @@ footer{
     border: 1px solid rgb(63, 63, 63);
     border-radius: 20px;
 }
-.footer-link-block-container{
-    display:inline-block;
-    
+.footer-link-block-container{    
     float:right;
 
     width:350px;
