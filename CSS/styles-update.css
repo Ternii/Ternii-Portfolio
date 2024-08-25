@@ -308,6 +308,8 @@ h1{
     color: white;
     background-color: brown;
     box-shadow: 0px 0px 20px rgba(87, 11, 11, 0.376);
+
+    cursor:pointer;
 }
 
 
