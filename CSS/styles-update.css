@@ -269,7 +269,11 @@ h1{
 .content-2-list-li{
     margin-bottom: 10px;
     height: 35px;
-    width: 100%;}
+    width: 100%;
+}
+.content-2-list-li:last-child{
+    margin-bottom:0px;
+}
 .content-2-list-li-btn{
     display: block;
     height: 35px;
