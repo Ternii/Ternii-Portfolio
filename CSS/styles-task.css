@@ -169,13 +169,12 @@ h1{
     width: 50%;
     height: 20px;
 }
-.content-2-task-desk-li-task-status{
+.content-2-task-desk-li-task-status-done, .content-2-task-desk-li-task-status-processed, .content-2-task-desk-li-task-status-waiting{
     
     float: right;
 
     padding: 5px 10px 5px 10px;
 
-    background-color: rgba(17, 200, 17, 0.624);
     border-radius: 10px;
 
     color: white;
@@ -185,6 +184,18 @@ h1{
 
     box-shadow: 0px 0px 4px grey;
 }
+
+.content-2-task-desk-li-task-status-done{
+background-color: rgba(17, 200, 17, 0.624);
+}
+.content-2-task-desk-li-task-status-processed{
+background-color: rgba(17, 200, 222, 0.624);
+}
+.content-2-task-desk-li-task-status-waiting{
+background-color: rgba(255, 161, 42, 0.624);
+}
+    
+
 .content-2-work-desk{
     padding: 15px;
 }
