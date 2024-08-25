@@ -71,7 +71,7 @@
 
                 <div class="content-2-work-desk">
                     <p id="taskname_output" class="contnet-2-work-desk-article">Select task</p>
-                    <img src="./RESOURCES/ternii-site-preview-2.png" alt="image from task" class="contnet-2-work-desk-image">
+                    <img id="task-image" src="./RESOURCES/ternii-site-preview-2.png" alt="image from task" class="contnet-2-work-desk-image">
                     <p id="taskinfo_output" class="content-2-work-desk-task">...</p>
                     <p class="content-2-work-desk-task-author">Author [Ternii Kirill]</p>
                     <p class="content-2-work-desk-task-perfomer">Perfomer [Ternii Kirill]</p>
@@ -137,6 +137,8 @@
             paragraph_taskName.textContent = tasknameToInsert_1;
             paragraph_taskInfo.textContent = taskInfoToInsert_1;
 
+            document.getElementById('task-image').src="../RESOURCES/main-content-1-bg.png";
+
         });
 
         button_2.addEventListener('mouseover', function() {
@@ -146,6 +148,8 @@
 
             paragraph_taskName.textContent = tasknameToInsert_2;
             paragraph_taskInfo.textContent = taskInfoToInsert_2;
+
+            document.getElementById('task-image').src="../RESOURCES/update-content-1-bg.png";
 
         });
 
@@ -157,6 +161,8 @@
             paragraph_taskName.textContent = tasknameToInsert_3;
             paragraph_taskInfo.textContent = taskInfoToInsert_3;
 
+            document.getElementById('task-image').src="../RESOURCES/task-content-1-bg.png";
+
          });
 
          button_4.addEventListener('mouseover', function() {
@@ -166,6 +172,8 @@
 
             paragraph_taskName.textContent = tasknameToInsert_4;
             paragraph_taskInfo.textContent = taskInfoToInsert_4;
+
+             document.getElementById('task-image').src="../RESOURCES/project-content-1-bg.png";
 
         });
 
