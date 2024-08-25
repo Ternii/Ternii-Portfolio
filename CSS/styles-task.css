@@ -180,7 +180,7 @@ h1{
     color: white;
 
     font-family: 'Raleway';
-    font-size: 12px;
+    font-size: 14px;
 
     box-shadow: 0px 0px 4px grey;
 }
@@ -193,6 +193,7 @@ background-color: rgba(17, 200, 222, 0.624);
 }
 .content-2-task-desk-li-task-status-waiting{
 background-color: rgba(255, 161, 42, 0.624);
+color: black;
 }
     
 
@@ -253,6 +254,8 @@ background-color: rgba(255, 161, 42, 0.624);
     word-spacing: 0.5em;
 
     border-radius: 15px;
+
+    white-space: pre-line;
     
     background-color:rgba(255, 255, 255, 0);
     backdrop-filter: blur(2px);
